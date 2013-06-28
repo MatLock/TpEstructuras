@@ -1,0 +1,75 @@
+# depslib dependency file v1.0
+1372181395 source:/home/matlock/Escritorio/Estructuras/tpFinal/Circle.cpp
+	"Circle.h"
+	<iostream>
+
+1372181284 /home/matlock/Escritorio/Estructuras/tpFinal/Circle.h
+	"Point.h"
+	<iostream>
+
+1372218742 /home/matlock/Escritorio/Estructuras/tpFinal/Point.h
+	"Maybe.h"
+	<iostream>
+	<vector>
+
+1372089171 /home/matlock/Escritorio/Estructuras/tpFinal/Maybe.h
+	<iostream>
+	<exception>
+
+1372390268 source:/home/matlock/Escritorio/Estructuras/tpFinal/Point.cpp
+	"Maybe.h"
+	"Point.h"
+	<algorithm>
+	<cmath>
+	<vector>
+
+1372393630 source:/home/matlock/Escritorio/Estructuras/tpFinal/QTree.cpp
+	"QTree.h"
+	"Maybe.h"
+	"geometry.h"
+	"Rect.h"
+	"Point.h"
+	<limits>
+	<iomanip>
+	<iostream>
+
+1372200003 /home/matlock/Escritorio/Estructuras/tpFinal/QTree.h
+	"Point.h"
+	"Circle.h"
+	"Rect.h"
+	"Maybe.h"
+	<vector>
+
+1372090707 /home/matlock/Escritorio/Estructuras/tpFinal/Rect.h
+	"Point.h"
+	<vector>
+	<iostream>
+	<utility>
+
+1371740355 /home/matlock/Escritorio/Estructuras/tpFinal/geometry.h
+	"Rect.h"
+	"Circle.h"
+	<algorithm>
+
+1372388715 source:/home/matlock/Escritorio/Estructuras/tpFinal/Rect.cpp
+	"Point.h"
+	"Rect.h"
+	"vector"
+
+1371740348 source:/home/matlock/Escritorio/Estructuras/tpFinal/geometry.cpp
+	"Point.h"
+	"geometry.h"
+
+1372370616 source:/home/matlock/Escritorio/Estructuras/tpFinal/main.cpp
+	"Maybe.h"
+	"Point.h"
+	"Rect.h"
+	"QTree.h"
+	<algorithm>
+	<cassert>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	<iostream>
+	<vector>
+

@@ -1,0 +1,17 @@
+CXX  = g++
+OUT  = points
+OBJS = $(patsubst %.cpp,%.o,$(wildcard *.cpp))
+
+all: $(OBJS)
+	$(CXX) -o $(OUT) $(OBJS)
+
+clean:
+	@rm -f *~ *.o
+
+Point.o: Maybe.h Point.h
+Rect.o: Rect.h Point.o
+Circle.o: Circle.h Point.o
+geometry.o: geometry.h Circle.o Rect.o
+QTree.o: QTree.h Maybe.h Circle.o Point.o Rect.o geometry.o
+main.o: Maybe.h Circle.o Point.o Rect.o geometry.o QTree.o
+
